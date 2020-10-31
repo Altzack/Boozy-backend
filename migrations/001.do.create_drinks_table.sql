@@ -3,9 +3,9 @@ create table drinks (
     title text not null,
     modified TIMESTAMPTZ DEFAULT now() NOT NULL,
     alcohol text not null,
-    mixers text not null,
-    liqueurs text not null,
-    juices text not null,
-    other text not null,
+    mixers text,
+    liqueurs text,
+    juices text,
+    other text,
     instructions text not null
 );
