@@ -1,5 +1,9 @@
 ## The API for Boozy
 
+- Live link: https://boozy.vercel.app/
+
+- API built with Express
+
 ### Endpoints
 
 <ul>
