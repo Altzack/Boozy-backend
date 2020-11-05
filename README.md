@@ -3,11 +3,11 @@
 ### Endpoints
 
 <ul>
-GET
-POST
-GET/id
-PATCH
-DELETE
+<li>GET</li>
+<li>POST</li>
+<li>GET/id</li>
+<li>PATCH</li>
+<li>DELETE</li>
 </ul>
 
 # Express Boilerplate!
