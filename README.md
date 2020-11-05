@@ -2,11 +2,13 @@
 
 ### Endpoints
 
+<ul>
 GET
 POST
 GET/id
 PATCH
 DELETE
+</ul>
 
 # Express Boilerplate!
 
