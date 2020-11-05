@@ -1,5 +1,13 @@
 ## The API for Boozy
 
+### Endpoints
+
+GET
+POST
+GET/id
+PATCH
+DELETE
+
 # Express Boilerplate!
 
 This is a boilerplate project used for starting new projects!
