@@ -20,25 +20,46 @@ Browse, create and share custom mixed drink recipes
 
 ```json
 {
-  "alcohol": "",
-  "instructions": "",
-  "juices": "",
-  "liqueurs": "",
-  "mixers": "",
-  "modified": "11/06/2020",
-  "other": "",
-  "title": ""
+  "alcohol": string,
+  "instructions": string,
+  "juices": string,
+  "liqueurs": string,
+  "mixers": string,
+  "modified": date,
+  "other": string,
+  "title": string
 }
 ```
 
-## Schema
+## API
 
 ### Endpoints
 
-<ul>
+#### GET/drinks
+
+```js
+//req.query
+{
+  //
+}
+
+//res.body
+[
+  {
+    alcohol: string,
+    instructions: string,
+    juices: string,
+    liqueurs: string,
+    mixers: string,
+    modified: date,
+    other: string,
+    title: string,
+  },
+];
+```
+
 <li>GET/drinks get all drinks</li>
 <li>POST/drinks post a drink</li>
 <li>GET/drinks/id to get a specific drink by id</li>
 <li>PATCH/drinks/id edit a drink</li>
 <li>DELETE/drinks/id delete a drink</li>
-</ul>
