@@ -84,7 +84,22 @@ Browse, create and share custom mixed drink recipes
 ];
 ```
 
+### DELETE `/api/drinks/:id`
+
+```js
+//req.query
+{
+  id: Id;
+}
+
+//res.body
+[
+  {
+    //
+  },
+];
+```
+
 <li>POST/drinks post a drink</li>
-<li>GET/drinks/id to get a specific drink by id</li>
 <li>PATCH/drinks/id edit a drink</li>
 <li>DELETE/drinks/id delete a drink</li>
