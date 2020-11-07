@@ -133,7 +133,7 @@ Browse, create and share custom mixed drink recipes
 ### PATCH `/api/drinks/:id`
 
 ```js
-//req.query
+//req.body
 {
   id: Id,
   title: "new title",
