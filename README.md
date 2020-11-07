@@ -20,6 +20,7 @@ Browse, create and share custom mixed drink recipes
 
 ```js
 {
+  id: num,
   alcohol: string,
   instructions: string,
   juices: string,
@@ -46,6 +47,7 @@ Browse, create and share custom mixed drink recipes
 //res.body
 [
   {
+    id: num,
     alcohol: string,
     instructions: string,
     juices: string,
@@ -58,7 +60,30 @@ Browse, create and share custom mixed drink recipes
 ];
 ```
 
-<li>GET/drinks get all drinks</li>
+### GET `/api/drinks/:id`
+
+```js
+//req.query
+{
+  id: Id;
+}
+
+//res.body
+[
+  {
+    id: Id,
+    alcohol: string,
+    instructions: string,
+    juices: string,
+    liqueurs: string,
+    mixers: string,
+    modified: date,
+    other: string,
+    title: string,
+  },
+];
+```
+
 <li>POST/drinks post a drink</li>
 <li>GET/drinks/id to get a specific drink by id</li>
 <li>PATCH/drinks/id edit a drink</li>
