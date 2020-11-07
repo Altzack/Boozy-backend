@@ -100,6 +100,34 @@ Browse, create and share custom mixed drink recipes
 ];
 ```
 
-<li>POST/drinks post a drink</li>
+### POST `/api/drinks`
+
+```js
+//req.body
+{
+    alcohol: string,
+    instructions: string,
+    juices: string,
+    liqueurs: string,
+    mixers: string,
+    other: string,
+    title: string,
+}
+
+//res.body
+[
+  {
+    id: Id,
+    alcohol: string,
+    instructions: string,
+    juices: string,
+    liqueurs: string,
+    mixers: string,
+    modified: date,
+    other: string,
+    title: string,
+  },
+];
+```
+
 <li>PATCH/drinks/id edit a drink</li>
-<li>DELETE/drinks/id delete a drink</li>
