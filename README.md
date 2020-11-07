@@ -130,4 +130,27 @@ Browse, create and share custom mixed drink recipes
 ];
 ```
 
-<li>PATCH/drinks/id edit a drink</li>
+### PATCH `/api/drinks/:id`
+
+```js
+//req.query
+{
+  id: Id,
+  title: "new title",
+}
+
+//res.body
+[
+  {
+    id: Id,
+    alcohol: string,
+    instructions: string,
+    juices: string,
+    liqueurs: string,
+    mixers: string,
+    modified: date,
+    other: string,
+    title: "new title",
+  },
+];
+```
