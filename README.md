@@ -20,16 +20,18 @@ Browse, create and share custom mixed drink recipes
 
 ```json
 {
-  "alcohol": "foo",
-  "instructions": "foo",
-  "juices": "foo",
-  "liqueurs": "foo",
-  "mixers": "foo",
+  "alcohol": "",
+  "instructions": "",
+  "juices": "",
+  "liqueurs": "",
+  "mixers": "",
   "modified": "11/06/2020",
-  "other": "foo",
-  "title": "foo"
+  "other": "",
+  "title": ""
 }
 ```
+
+## Schema
 
 ### Endpoints
 
