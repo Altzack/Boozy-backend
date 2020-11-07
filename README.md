@@ -18,7 +18,7 @@ Browse, create and share custom mixed drink recipes
 
 ### Drink
 
-````json
+```json
 {
 alcohol: "foo"
 instructions: "foo"
@@ -28,7 +28,8 @@ mixers: "foo"
 modified: "11/06/2020"
 other: "foo"
 title: "foo"
-}```
+}
+```
 
 ### Endpoints
 
@@ -39,4 +40,3 @@ title: "foo"
 <li>PATCH/drinks/id edit a drink</li>
 <li>DELETE/drinks/id delete a drink</li>
 </ul>
-````
