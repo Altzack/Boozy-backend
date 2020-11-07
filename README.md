@@ -18,16 +18,16 @@ Browse, create and share custom mixed drink recipes
 
 ### Drink
 
-```json
+```js
 {
-  "alcohol": string,
-  "instructions": string,
-  "juices": string,
-  "liqueurs": string,
-  "mixers": string,
-  "modified": date,
-  "other": string,
-  "title": string
+  alcohol: string,
+  instructions: string,
+  juices: string,
+  liqueurs: string,
+  mixers: string,
+  modified: date,
+  other: string,
+  title: string
 }
 ```
 
@@ -35,7 +35,7 @@ Browse, create and share custom mixed drink recipes
 
 ### Endpoints
 
-#### GET/drinks
+### GET `/api/drinks`
 
 ```js
 //req.query
