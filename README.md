@@ -20,14 +20,14 @@ Browse, create and share custom mixed drink recipes
 
 ```json
 {
-alcohol: "foo"
-instructions: "foo"
-juices: "foo"
-liqueurs: "foo"
-mixers: "foo"
-modified: "11/06/2020"
-other: "foo"
-title: "foo"
+  "alcohol": "foo",
+  "instructions": "foo",
+  "juices": "foo",
+  "liqueurs": "foo",
+  "mixers": "foo",
+  "modified": "11/06/2020",
+  "other": "foo",
+  "title": "foo"
 }
 ```
 
