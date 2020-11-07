@@ -14,6 +14,22 @@ Browse, create and share custom mixed drink recipes
 
 - Tech stack: (PERN) PostgreSQL, Express, React, Node
 
+## Schema
+
+### Drink
+
+````json
+{
+alcohol: "foo"
+instructions: "foo"
+juices: "foo"
+liqueurs: "foo"
+mixers: "foo"
+modified: "11/06/2020"
+other: "foo"
+title: "foo"
+}```
+
 ### Endpoints
 
 <ul>
@@ -23,3 +39,4 @@ Browse, create and share custom mixed drink recipes
 <li>PATCH/drinks/id edit a drink</li>
 <li>DELETE/drinks/id delete a drink</li>
 </ul>
+````
